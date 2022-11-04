@@ -1,10 +1,12 @@
+import AppRouter from './components/app-router';
+import { BrowserRouter } from 'react-router-dom';
 import React from 'react';
 
 const App = () => {
   return (
-    <div>
-      Hello React World!
-    </div>
+    <BrowserRouter>
+      <AppRouter />
+    </BrowserRouter>
   );
 }
 
